@@ -6,26 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".Aktiviteler.AnaSayfa">
 
-    <Button
-        android:id="@+id/buttonHakkinda"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="25dp"
-        android:text="HAKKINDA"
-        app:backgroundTint="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonEczaneler" />
-
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="56dp"
-        android:fontFamily="sans-serif-light"
+        android:layout_width="210dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/allerta"
         android:text="BİLGİ DEPOSU"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -34,23 +22,43 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/buttonHakkinda"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/radius_button_shape"
+        android:text="Hakkında"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEczaneler" />
+
+
+    <Button
+
         android:id="@+id/buttonUlkeler"
         android:layout_width="300dp"
         android:layout_height="70dp"
-        android:layout_marginTop="35dp"
-        android:text="ÜLKELER"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/radius_button_shape"
+        android:text="Ülkeler"
+        android:textAllCaps="false"
         app:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/buttonFilmler"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="25dp"
-        android:text="FİLMLER"
+        android:background="@drawable/radius_button_shape"
+        android:text="Filmler"
+        android:textAllCaps="false"
         app:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -62,7 +70,9 @@
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="25dp"
+        android:background="@drawable/radius_button_shape"
         android:text="Sorular"
+        android:textAllCaps="false"
         app:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -74,7 +84,9 @@
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="25dp"
-        android:text="NÖBETÇİ ECZANELER"
+        android:background="@drawable/radius_button_shape"
+        android:text="Nöbetçi Eczaneler"
+        android:textAllCaps="false"
         app:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -88,7 +100,9 @@
         android:layout_marginStart="55dp"
         android:layout_marginLeft="55dp"
         android:layout_marginTop="25dp"
-        android:text="ÇIKIŞ"
+        android:background="@drawable/radius_button_shape"
+        android:text="Çıkış"
+        android:textAllCaps="false"
         app:backgroundTint="@android:color/holo_red_dark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonHakkinda" />
@@ -101,7 +115,8 @@
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/favoriler"
-        android:text="FAVORİLER"
+        android:text="Favoriler"
+        android:textAllCaps="false"
         android:textSize="12sp"
         app:backgroundTint="@android:color/holo_red_dark"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,10 +126,10 @@
         android:id="@+id/imageView"
         android:layout_width="110dp"
         android:layout_height="100dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonUlkeler"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icon_main" />
 
